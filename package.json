@@ -1,0 +1,29 @@
+{
+  "name": "lowdown-charlifrank",
+  "version": "1.0.0",
+  "description": "A js functional lib",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharliFrank/lodown.git"
+  },
+  "author": "charlifrank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CharliFrank/lodown/issues"
+  },
+  "homepage": "https://github.com/CharliFrank/lodown#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "i": "^0.3.5",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7"
+  }
+}
